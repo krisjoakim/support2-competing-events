@@ -1,0 +1,44 @@
+{
+  "model_family": "Histogram gradient boosting",
+  "features": [
+    "adl_patient_reported",
+    "diagnosis_group",
+    "hospital_day_at_study_entry",
+    "diagnosis_class",
+    "adl_surrogate_reported",
+    "bilirubin",
+    "age",
+    "mean_arterial_pressure",
+    "creatinine",
+    "blood_urea_nitrogen",
+    "heart_rate",
+    "pao2_fio2_ratio",
+    "urine_output",
+    "glucose",
+    "arterial_ph"
+  ],
+  "parameters": {
+    "l2_regularization": 10.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 50
+  },
+  "indicator_features": [
+    "age",
+    "hospital_day_at_study_entry",
+    "mean_arterial_pressure",
+    "heart_rate",
+    "pao2_fio2_ratio",
+    "bilirubin",
+    "creatinine",
+    "arterial_ph",
+    "glucose",
+    "blood_urea_nitrogen",
+    "urine_output",
+    "adl_patient_reported",
+    "adl_surrogate_reported"
+  ],
+  "selection_metric": "Mean daily Brier over days 1-90",
+  "practical_margin": 0.002
+}

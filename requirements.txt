@@ -1,7 +1,7 @@
-jupyterlab>=4.2,<5
-matplotlib>=3.8,<4
-numpy>=1.26,<3
-pandas>=2.2,<3
-scikit-learn==1.5.1
-scipy>=1.13,<2
-seaborn>=0.13,<1
+jupyterlab==4.5.0
+matplotlib==3.10.8
+numpy==2.4.1
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.16.3
+ucimlrepo==0.0.7

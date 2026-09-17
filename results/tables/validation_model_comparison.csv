@@ -1,0 +1,3 @@
+model,n_features,mean_daily_brier
+Histogram gradient boosting,15,0.13142391261575578
+Multinomial logistic regression,28,0.1341906318863986

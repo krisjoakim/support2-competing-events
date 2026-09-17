@@ -1,0 +1,12 @@
+{
+  "Multinomial logistic regression": {
+    "C": 100.0
+  },
+  "Histogram gradient boosting": {
+    "l2_regularization": 10.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 50
+  }
+}

@@ -1,0 +1,11 @@
+fold,mean_daily_brier,model
+1,0.13977238054685753,Multinomial logistic regression
+2,0.14206317960385245,Multinomial logistic regression
+3,0.14245372501661308,Multinomial logistic regression
+4,0.13923183854917487,Multinomial logistic regression
+5,0.14172150198872854,Multinomial logistic regression
+1,0.13762758585207235,Histogram gradient boosting
+2,0.14084743739894845,Histogram gradient boosting
+3,0.1409770280509672,Histogram gradient boosting
+4,0.13562188156177685,Histogram gradient boosting
+5,0.14042246421373894,Histogram gradient boosting

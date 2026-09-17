@@ -9,7 +9,8 @@
 venv/
 env/
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 .pytest_cache/
 .mypy_cache/
 
@@ -21,19 +22,18 @@ __pycache__/
 .env.*
 !.env.example
 
-# Course-distributed patient-level data (redistribution not established)
-data/course/
-
-# Reproducible intermediate data and model artifacts
+# Local patient-level data and fitted-model artifacts
 data/processed/
-artifacts/
+*.csv
+*.parquet
 *.pkl
+*.joblib
 
-# Generated prediction files
+# Aggregate reproducibility tables are part of the project.
+!results/**/*.csv
+
+# Optional local prediction exports
 results/predictions.csv
-
-# Historical Flask application: intentionally outside the public project scope
-nettside/
 
 # Temporary and log files
 *.log

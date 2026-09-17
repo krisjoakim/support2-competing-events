@@ -1,0 +1,5 @@
+model,parameters,mean_daily_brier,fold_sd,rank
+Histogram gradient boosting,"{""l2_regularization"": 10.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 50}",0.13660893863881485,0.0017758182958108931,1
+Histogram gradient boosting,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 7, ""min_samples_leaf"": 50}",0.13736215038648303,0.001396809248087857,2
+Histogram gradient boosting,"{""l2_regularization"": 10.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 31, ""min_samples_leaf"": 100}",0.13756859281245748,0.0023382846834478486,3
+Multinomial logistic regression,"{""C"": 100.0}",0.14093147114078114,0.001355119553387232,1

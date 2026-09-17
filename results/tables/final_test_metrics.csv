@@ -1,0 +1,45 @@
+event,metric,horizon,value,model
+Live discharge,Mean daily Brier,1-90,0.15025683444165647,Histogram gradient boosting
+Live discharge,Brier,7,0.15379840110158186,Histogram gradient boosting
+Live discharge,AUC,7,0.8345701917130488,Histogram gradient boosting
+Live discharge,Brier,14,0.1607230092857056,Histogram gradient boosting
+Live discharge,AUC,14,0.8422237955721584,Histogram gradient boosting
+Live discharge,Brier,30,0.15452663293700966,Histogram gradient boosting
+Live discharge,AUC,30,0.8476293802219728,Histogram gradient boosting
+Live discharge,Brier,60,0.15288817697191454,Histogram gradient boosting
+Live discharge,AUC,60,0.8300518849699179,Histogram gradient boosting
+Live discharge,Brier,90,0.15107445805045525,Histogram gradient boosting
+Live discharge,AUC,90,0.8270167254522699,Histogram gradient boosting
+In-hospital death,Mean daily Brier,1-90,0.13433336434391313,Histogram gradient boosting
+In-hospital death,Brier,7,0.08961224715078464,Histogram gradient boosting
+In-hospital death,AUC,7,0.822570888468809,Histogram gradient boosting
+In-hospital death,Brier,14,0.12261600911759744,Histogram gradient boosting
+In-hospital death,AUC,14,0.816391744000484,Histogram gradient boosting
+In-hospital death,Brier,30,0.1381438551786724,Histogram gradient boosting
+In-hospital death,AUC,30,0.81958413453704,Histogram gradient boosting
+In-hospital death,Brier,60,0.1471363043816983,Histogram gradient boosting
+In-hospital death,AUC,60,0.8138090286273549,Histogram gradient boosting
+In-hospital death,Brier,90,0.14732278946081512,Histogram gradient boosting
+In-hospital death,AUC,90,0.8178655272512206,Histogram gradient boosting
+Live discharge,Mean daily Brier,1-90,0.21598133264816272,Population baseline
+Live discharge,Brier,7,0.22032095950771666,Population baseline
+Live discharge,AUC,7,0.5,Population baseline
+Live discharge,Brier,14,0.24985376424845404,Population baseline
+Live discharge,AUC,14,0.5,Population baseline
+Live discharge,Brier,30,0.2339394994454807,Population baseline
+Live discharge,AUC,30,0.5,Population baseline
+Live discharge,Brier,60,0.21134952158780307,Population baseline
+Live discharge,AUC,60,0.5,Population baseline
+Live discharge,Brier,90,0.20510491804583594,Population baseline
+Live discharge,AUC,90,0.5,Population baseline
+In-hospital death,Mean daily Brier,1-90,0.17298370375852423,Population baseline
+In-hospital death,Brier,7,0.10772557067314018,Population baseline
+In-hospital death,AUC,7,0.5,Population baseline
+In-hospital death,Brier,14,0.15429861152238392,Population baseline
+In-hospital death,AUC,14,0.5,Population baseline
+In-hospital death,Brier,30,0.17870812902185074,Population baseline
+In-hospital death,AUC,30,0.5,Population baseline
+In-hospital death,Brier,60,0.19041817972271552,Population baseline
+In-hospital death,AUC,60,0.5,Population baseline
+In-hospital death,Brier,90,0.19301807786262082,Population baseline
+In-hospital death,AUC,90,0.5,Population baseline

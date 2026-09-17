@@ -1,0 +1,19 @@
+model,candidate,parameters,mean_daily_brier,fold_sd,fold_se,rank
+Histogram gradient boosting,7,"{""l2_regularization"": 10.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 50}",0.13657672751350886,0.0021323624970519786,0.0009536214992158838,1
+Histogram gradient boosting,11,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 7, ""min_samples_leaf"": 50}",0.1375173090550486,0.0008759575600820892,0.00039174012994968156,2
+Histogram gradient boosting,12,"{""l2_regularization"": 10.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 31, ""min_samples_leaf"": 100}",0.13806351712984646,0.0022809595324475044,0.0010200761136957514,3
+Histogram gradient boosting,9,"{""l2_regularization"": 1.0, ""learning_rate"": 0.025, ""max_iter"": 400, ""max_leaf_nodes"": 31, ""min_samples_leaf"": 20}",0.1382680728763434,0.0019409001503386278,0.0008679969347393466,4
+Histogram gradient boosting,8,"{""l2_regularization"": 0.1, ""learning_rate"": 0.025, ""max_iter"": 400, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 20}",0.1389754852656277,0.002126424882100695,0.0009509661170848259,5
+Histogram gradient boosting,5,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 31, ""min_samples_leaf"": 20}",0.13909927941550077,0.002376499109041327,0.0010628027112568185,6
+Histogram gradient boosting,4,"{""l2_regularization"": 0.1, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 20}",0.1392291062411239,0.002178268573419765,0.0009741513206836172,7
+Histogram gradient boosting,10,"{""l2_regularization"": 10.0, ""learning_rate"": 0.025, ""max_iter"": 400, ""max_leaf_nodes"": 63, ""min_samples_leaf"": 10}",0.13925734843656262,0.0024751984506432346,0.001106942398688086,8
+Histogram gradient boosting,2,"{""l2_regularization"": 1.0, ""learning_rate"": 0.1, ""max_iter"": 100, ""max_leaf_nodes"": 31, ""min_samples_leaf"": 20}",0.13964949980050437,0.0021874723180963264,0.0009782673604324858,9
+Histogram gradient boosting,6,"{""l2_regularization"": 10.0, ""learning_rate"": 0.05, ""max_iter"": 200, ""max_leaf_nodes"": 63, ""min_samples_leaf"": 10}",0.13978419710504722,0.0028439529090542237,0.0012718544058907043,10
+Histogram gradient boosting,3,"{""l2_regularization"": 10.0, ""learning_rate"": 0.1, ""max_iter"": 100, ""max_leaf_nodes"": 63, ""min_samples_leaf"": 10}",0.1404917845783039,0.0026785223516728436,0.0011978716115186151,11
+Histogram gradient boosting,1,"{""l2_regularization"": 0.0, ""learning_rate"": 0.1, ""max_iter"": 100, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 20}",0.14191664619284855,0.0016622224633088855,0.0007433684843371636,12
+Multinomial logistic regression,6,"{""C"": 100.0}",0.14093147114078114,0.001355119553387232,0.0006060278878026012,1
+Multinomial logistic regression,3,"{""C"": 0.1}",0.14096935034292538,0.001639027381067011,0.0007329953282098577,2
+Multinomial logistic regression,5,"{""C"": 10.0}",0.14097467171719916,0.0014117145406489313,0.0006313379355431801,3
+Multinomial logistic regression,4,"{""C"": 1.0}",0.1410485251410453,0.0014479212172166258,0.0006475300535521228,4
+Multinomial logistic regression,2,"{""C"": 0.01}",0.1429570065573817,0.0018470427697000974,0.0008260226380797813,5
+Multinomial logistic regression,1,"{""C"": 0.001}",0.15352408928888223,0.0020692204673732647,0.000925383525096101,6
