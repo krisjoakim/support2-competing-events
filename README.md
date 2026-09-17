@@ -1,5 +1,8 @@
 # Hospital Outcome Prediction with SUPPORT2
 
+Read the [technical report (PDF)](report/project_report.pdf) or its
+[Markdown source](report/project_report.md) for the complete analysis.
+
 ## Research question
 
 Given patient information available around the third SUPPORT study day, how
@@ -102,7 +105,7 @@ systematic mortality miscalibration.
 | Patient-reported ADL input | Mean daily Brier |
 | --- | ---: |
 | Value and explicit missingness indicator | 0.13658 |
-| Missingness indicator only | 0.13691 |
+| Missingness indicator only | 0.13690 |
 | Value only | 0.14191 |
 | Neither | 0.14419 |
 
@@ -128,16 +131,22 @@ stored under results/.
 
 ## Reproduce
 
-Python 3.11 is used by the executed notebooks. All direct project dependencies
-are pinned in requirements.txt.
+The saved notebooks record Python 3.11.11. Direct analysis dependencies are
+pinned in [requirements.txt](requirements.txt). Use a fresh Python 3.11
+environment; an existing environment may contain different package versions.
 
-    python3.11 -m venv .venv
-    source .venv/bin/activate
+    python3.11 -m venv .venv-reproduce
+    source .venv-reproduce/bin/activate
     python -m pip install -r requirements.txt
-    jupyter lab
+    python -m pip check
+    python -m jupyterlab
 
 Run notebooks 01 through 05 in order. Notebook 05 reads the locked specification
-written by notebook 04.
+written by notebook 04. Internet access is required to retrieve SUPPORT2.
+The saved public version of notebook 05 omits its patient-context table; rerunning
+the final plotting cell displays that table again. Clear that table output before
+sharing or committing the notebook. See the [data documentation](data/README.md)
+for the distinction between current files and earlier Git history.
 
 ## Limitations
 
@@ -149,4 +158,4 @@ individual trajectories describe model behaviour rather than causal effects or
 treatment recommendations.
 
 Code and documentation are released under the [MIT License](LICENSE). The license
-does not apply to SUPPORT2 data.
+does not apply to SUPPORT2 data; see the [data attribution and source terms](data/README.md#data-attribution-and-terms).

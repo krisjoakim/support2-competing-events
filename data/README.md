@@ -1,7 +1,11 @@
 # SUPPORT2 data source
 
-The repository does not store or redistribute patient-level data. Each notebook
-retrieves the official source programmatically with `ucimlrepo`:
+The current published files omit source-data tables and patient identifiers.
+Notebook 05 retains illustrative prediction curves, but its saved patient-context
+table is omitted. Rerunning its final plotting cell displays that table again;
+clear the table output before sharing or committing. This describes the current
+files; earlier Git commits still contain patient-level tables.
+Each notebook retrieves the official source programmatically with `ucimlrepo`:
 
 ~~~python
 from ucimlrepo import fetch_ucirepo
@@ -18,6 +22,19 @@ No manual-download or local-CSV fallback is used. An unavailable source should
 be reported rather than silently replaced with another file. The concise
 machine-readable mapping from changed SUPPORT2 names to project names is stored
 in [column_names.json](column_names.json); identity mappings are omitted.
+
+## Data attribution and terms
+
+SUPPORT2 is separate from the project’s MIT-licensed code and documentation.
+[UCI](https://archive.ics.uci.edu/dataset/880/support2) directs users to the
+original source for data licensing and acknowledgement. The
+[Vanderbilt data repository](https://hbiostat.org/data/) permits use of its
+datasets and requests the original-paper citation and this acknowledgement:
+
+> Data obtained from http://hbiostat.org/data courtesy of the Vanderbilt University Department of Biostatistics.
+
+The notebooks access SUPPORT2 through UCI. The underlying data remain subject
+to their source terms; this project does not relicense them.
 
 Authoritative documentation:
 

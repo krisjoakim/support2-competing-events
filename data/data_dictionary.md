@@ -103,4 +103,4 @@ These measurements are recorded around SUPPORT day 3 according to the Vanderbilt
 
 ## Documentation notes
 
-The UCI record presents `id` plus 47 non-identifier variables. Missingness is descriptive source-level information, not a criterion for automatic deletion. The project keeps no patient-level data in the repository. Source documentation remains authoritative for field definitions and collection details.
+The UCI record presents `id` plus 47 non-identifier variables. Missingness is descriptive source-level information, not a criterion for automatic deletion. The current published files omit source-data tables and patient identifiers; illustrative individual prediction curves are retained. Notebook 05’s patient-context table is omitted from saved outputs but reappears when its final plotting cell is run. See [data publication notes](README.md) for handling outputs and earlier Git history. Source documentation remains authoritative for field definitions and collection details.

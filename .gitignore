@@ -6,6 +6,7 @@
 
 # Python environments and caches
 .venv/
+.venv-*/
 venv/
 env/
 __pycache__/
@@ -47,3 +48,6 @@ results/predictions.csv
 # published project.
 report/project_report.docx
 report/build_report.py
+
+# Local publication copies; never include in the repository
+dist/
