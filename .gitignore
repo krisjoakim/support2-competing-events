@@ -40,3 +40,8 @@ results/predictions.csv
 *.tmp
 *.temp
 ~$*
+
+# The published report is Markdown (source) and PDF (distributable) only.
+# The .docx is build_report.py's intermediate output on the way to the PDF,
+# not a second published format.
+report/project_report.docx
