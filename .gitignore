@@ -43,5 +43,7 @@ results/predictions.csv
 
 # The published report is Markdown (source) and PDF (distributable) only.
 # The .docx is build_report.py's intermediate output on the way to the PDF,
-# not a second published format.
+# and the script itself is a local authoring tool, not part of the
+# published project.
 report/project_report.docx
+report/build_report.py
